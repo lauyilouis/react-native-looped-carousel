@@ -426,6 +426,7 @@ export default class Carousel extends Component {
               height: size.height,
             },
           ]}
+          scrollEventThrottle={16}
         >
           {contents}
         </ScrollView>
