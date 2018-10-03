@@ -427,6 +427,7 @@ export default class Carousel extends Component {
             },
           ]}
           scrollEventThrottle={16}
+          keyboardShouldPersistTaps={this.props.keyboardShouldPersistTaps}
         >
           {contents}
         </ScrollView>
